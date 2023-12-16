@@ -1,0 +1,180 @@
+/* Trandform property */
+
+/* .Block1 {
+  width: 150px;
+  height: 100px;
+  background-color: darkorchid;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  transform: rotate(20deg);
+}
+
+.Block2 {
+  width: 150px;
+  height: 100px;
+  background-color: darkorchid;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+  transform: skew(20deg);
+}
+
+.Block3 {
+  width: 150px;
+  height: 100px;
+  background-color: darkorchid;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 15px;
+  transform: scale(1.1);
+} */
+
+/*Tranform origin property  */
+
+/* .div1 {
+  width: 150px;
+  height: 120px;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  padding: 10px;
+  transform-origin: 0%7 20%;
+  transform: rotate(30deg);
+} */
+
+/* Transform style */
+
+/* .div1 {
+  position: relative;
+  height: 200px;
+  width: 200 px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.div2 {
+  padding: 50px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  transform-style: preserve-3d;
+}
+
+.div3 {
+  padding: 40px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: yellow;
+
+  transform: rotatey(-60deg);
+} */
+
+/* Transition property and duration  & timing*/
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-timing-function: ease-in;
+}
+
+div:hover {
+  width: 500px;
+} */
+
+/* Transition shorthand */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: width linear 3s;
+}
+
+div:hover {
+  width: 500px;
+} */
+
+/* Animation */
+
+/* div {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  animation-name: Ono;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: infinite;
+} */
+
+/* @keyframes wow {
+  from {
+    background-color: crimson red;
+  }
+  to {
+    background-color: yellow;
+  }
+} */
+
+/* @keyframes Ono {
+  0% {
+    background-color: blue;
+    width: 100px;
+  }
+  30% {
+    background-color: chartreuse;
+    width: 200px;
+  }
+  50% {
+    background-color: red;
+    width: 300px;
+  }
+  100% {
+    background-color: darkblue;
+    width: 400px;
+  }
+} */
+
+/* place changes animation */
+
+/* @keyframes Ono {
+  0% {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+
+  30% {
+    background-color: tomato;
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: darkgoldenrod;
+    left: 0px;
+    top: 300px;
+  }
+
+  70% {
+    background-color: red;
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    background-color: sienna;
+    left: 0px;
+    top: 300px;
+  }
+} */
